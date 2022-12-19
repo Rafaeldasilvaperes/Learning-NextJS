@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  background-color: rgb(50, 50, 50);
+  padding: 20px 15%;
+  font-size: 1.2em;
+  justify-content: left;
+}
+
+.navbar li a{
+  color: white;
+  margin-right: 1.2em;
+  text-decoration: none; 
+  transition: 0.3s;
+}
+
+.navbar a:hover{
+  color: #999;
+}
+.navbar li:last-child {
+  margin-left: auto;
+}

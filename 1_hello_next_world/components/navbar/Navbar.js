@@ -1,10 +1,15 @@
 import Link from 'next/link'
 
+import styles from './Navbar.module.css'
+
 export default function Navbar(){
+
+  const {navbar} = styles
+
   return (
     <>
-      <ul>
-      <li>
+      <ul className={navbar}>
+        <li>
           <Link href="/">
             Home
           </Link>
@@ -17,6 +22,11 @@ export default function Navbar(){
         <li>
           <Link href="/about">
             Sobre nós
+          </Link>
+        </li>
+        <li>
+          <Link href="/">
+            Sign in
           </Link>
         </li>
       </ul>
