@@ -3,6 +3,11 @@
   margin: 0;
   font-family: Helvetica;
 }
+body{
+  display: flex;
+  flex-direction: column;
+
+}
 
 body li{
   list-style: none;

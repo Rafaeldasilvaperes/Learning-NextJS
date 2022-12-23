@@ -8,9 +8,9 @@ export default function MainContainer({children}){
   return (
     <section className={styles.main}>
       <Navbar />
-      <div>
+      <main>
         {children}
-      </div>
+      </main>
       <Footer />
     </section>
   )

@@ -4,3 +4,7 @@
   flex-direction: column;
   
 }
+
+.main:nth-child(1){
+  text-align: center;
+}
