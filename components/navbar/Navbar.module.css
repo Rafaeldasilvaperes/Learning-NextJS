@@ -7,14 +7,14 @@
 }
 
 .navbar li a{
-  color: white;
+  color: rgb(180, 180, 180);
   margin-right: 1.2em;
   text-decoration: none; 
   transition: 0.3s;
 }
 
 .navbar a:hover{
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 .navbar li:last-child {
   margin-left: auto;

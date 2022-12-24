@@ -13,8 +13,6 @@ export async function getStaticProps(){
   }
 }
 
-
-
 export default function Todos({ todos }){
 
   const {todolist} = styles
