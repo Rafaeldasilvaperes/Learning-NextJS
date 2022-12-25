@@ -8,7 +8,9 @@
   font-size: 3.5rem;
   color: white;
 }
-
+.container a{
+  color: greenyellow;
+}
 .main {
   
   min-height: 100vh;
@@ -47,3 +49,7 @@
   padding-bottom: 1em;
   border-bottom: 1px solid #ccc;
 }
+.todolist a{
+  color: greenyellow;
+}
+
