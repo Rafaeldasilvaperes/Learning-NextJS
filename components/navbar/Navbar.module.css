@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   background-color: rgb(50, 50, 50);
-  padding: 20px 15%;
+  padding: 20px var(--padding-default);
   font-size: 1.2em;
   justify-content: left;
   align-items: center;
@@ -30,10 +30,22 @@
   align-items: center;
   gap: 0.8rem;
 }
+.logoContainer h1{
+  background: linear-gradient(to right, #fafafa 50%, var(--pokemon-red) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .logoContainer:hover h1{
-  color: red;
+  background: linear-gradient(to right, var(--pokemon-red) 50%, #ffffff 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .logoContainer:active h1{
-  color: rgb(248, 70, 70);
+  background: linear-gradient(to right, var(--pokemon-red) 50%, #aeaeae 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

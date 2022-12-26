@@ -1,10 +1,10 @@
-import styles from '../../styles/Home.module.css'
+import stylesPage from '../../styles/AboutUs/AboutUs.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
 
 export default function About(){
 
-  const {containerSobreNos__texto, containerSobreNos, title, paragrafoDescricao} = styles
+  const {containerSobreNos__texto, containerSobreNos} = stylesPage
 
   return (
     <>

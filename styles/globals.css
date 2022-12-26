@@ -1,3 +1,13 @@
+:root{
+  --pokemon-red: #E33D33;
+  --padding-default: 15%;
+  --main-bg-fallback: rgba(33,33,33,1);
+  --main-bg-gradient: radial-gradient(circle, rgba(217,216,216,1) 0%, rgba(163,163,163,1) 0%, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
+  
+  
+}
+
+
 * {
   padding: 0;
   margin: 0;

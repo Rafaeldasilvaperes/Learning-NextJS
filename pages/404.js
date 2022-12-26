@@ -1,8 +1,10 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/404/404.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
 
 export default function NotFound(){
+
+  const {container404} = styles
 
   return (
     <>
@@ -13,7 +15,7 @@ export default function NotFound(){
       </Head>
 
 
-    <div className={styles.container}>
+    <div className={container404}>
       <h1>404</h1>
       <p>This page doesn't exist!</p>
       <Link href="/" className={styles.todolist}>Voltar</Link>

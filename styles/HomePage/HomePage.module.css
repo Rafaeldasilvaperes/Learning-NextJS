@@ -1,0 +1,50 @@
+.container {
+  padding: 20px 15%;
+  display: flex;
+  flex-direction: column;
+}
+.container h1{
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+}
+.container a{
+  color: var(--pokemon-red);
+  align-self: center;
+}
+.container img{
+  align-self: center;
+  margin-block: 35px;
+}
+.container p{
+  font-size: 1.3rem;
+}
+
+.title {
+  margin-block: 10px;
+  line-height: 1.15;
+  font-size: 4rem;
+  color: white;
+
+  background: linear-gradient(to right, #fafafa 50%, var(--pokemon-red) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cardsContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  column-gap: 3rem;
+}
