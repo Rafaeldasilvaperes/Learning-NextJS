@@ -42,10 +42,10 @@ export default function Todo({todo}){
     </Head>
 
       <section className={styles.container}>
-        <Link href="/todos">Voltar</Link>
+        
         <h1>Exibindo o to-do: {todo.id}</h1>
-        <h2 className={styles.todolist}>Texto: {todo.title}</h2>
-
+        <span>“ {todo.title} ”</span>
+        <Link href="/todos">Voltar</Link>
         {/* <p>Comentário: Opa meu bom... <Link href={`/todos/${todo.id}/comments/2`}>Detalhes</Link></p>
 
         <p>Comentário: Óia só que doideira... <Link href={`/todos/${todo.id}/comments/3`}>Detalhes</Link></p> */}

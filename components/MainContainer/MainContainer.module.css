@@ -2,9 +2,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: rgb(19, 22, 24);
+  background: rgb(217,216,216);
+background: radial-gradient(circle, rgba(217,216,216,1) 0%, rgba(163,163,163,1) 0%, rgba(33,33,33,1) 0%, rgba(0,0,0,1) 100%);
 }
 
-.main:nth-child(1){
-  text-align: center;
-}
+

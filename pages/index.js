@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>Home | NextJS</title>
+      <title>PokeNext Home | NextJS</title>
       <meta name="keywords" content="Roupas, Calçados, Bonés"></meta>
       <meta name="description" content="Encontre a melhor roupa para você"></meta>
     </Head>
