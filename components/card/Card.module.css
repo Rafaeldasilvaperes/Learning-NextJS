@@ -1,13 +1,16 @@
 .article{
   background: rgb(38,2,2);
-background: radial-gradient(circle, rgba(38,2,2,1) 0%, rgba(0,0,0,1) 100%);
+background: radial-gradient(circle, rgb(50, 50, 50) -10%, rgba(0,0,0,1) 100%);
+  background-color: rgb(50, 50, 50);
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   padding: 2em 1em;
   min-width: 250px;
-  border: 2px solid var(--pokemon-red);
+  max-width: 250px;
+  max-height: 452px;
+  border: 2px solid rgb(99, 20, 20);
   border-radius: 1em;
   box-shadow: 5px 5px 12px rgba(94, 38, 38, 0.5);
   animation: bg-alternation 2s linear infinite alternate both;
@@ -20,6 +23,7 @@ background: radial-gradient(circle, rgba(38,2,2,1) 0%, rgba(0,0,0,1) 100%);
 }
 .article img{
   margin: 0;
+  align-self: center;
 }
 .article p{
   margin: 1em 0;

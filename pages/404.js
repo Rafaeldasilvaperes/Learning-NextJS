@@ -16,8 +16,8 @@ export default function NotFound(){
 
 
     <div className={container404}>
-      <h1>404</h1>
-      <p>This page doesn't exist!</p>
+      <h1>404 | 😕</h1>
+      <p>Sorry, this page doesn't exist!</p>
       <Link href="/" className={styles.todolist}>Voltar</Link>
     </div>
     </>
