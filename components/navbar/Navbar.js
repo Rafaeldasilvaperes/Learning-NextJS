@@ -23,13 +23,13 @@ export default function Navbar(){
           </li>
           
           <li>
-            <Link href="/todos">
-              To-do List
+            <Link href="/">
+              Home
             </Link>
           </li>
           <li>
             <Link href="/about">
-              Sobre nós
+              Sobre
             </Link>
           </li>
         </ul>

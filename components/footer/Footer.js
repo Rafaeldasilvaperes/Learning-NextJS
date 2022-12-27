@@ -6,7 +6,7 @@ export default function Footer(){
 
   return (
     <footer className={footer}>
-      <p>Rafael Rafaellos &copy; 2022</p>
+      <p>Rafael Peres &copy; 2022</p>
     </footer>
   )
 }

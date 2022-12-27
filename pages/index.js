@@ -8,7 +8,7 @@ import Card from '../components/card/Card.js'
 
 export async function getStaticProps(){
 
-  const maxPokemons = 251
+  const maxPokemons = 905
   const api = 'https://pokeapi.co/api/v2/pokemon/'
   const response = await fetch(`${api}/?limit=${maxPokemons}`)
   const data = await response.json()
